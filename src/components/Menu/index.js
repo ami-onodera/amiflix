@@ -1,10 +1,19 @@
 import React from 'react';
-import Logo from '../../assets'
+import Logo from '../../assets/img/Logo.png'
+import './Menu.css'
+import ButtonLink from './components/ButtonLink'
 
 function Menu() {
   return (
-    <nav>
-      <img src={Logo} />
+    <nav className="Menu">
+      <a href="/">
+        <img class="Logo" src={Logo} alt="AmiFlix logo" />
+      </a>
+
+      <ButtonLink className="ButtonLink" href="/">
+        Novo vídeo
+      </ButtonLink>
+
     </nav>
 
     );
