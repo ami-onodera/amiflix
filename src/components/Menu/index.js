@@ -1,9 +1,10 @@
 import React from 'react';
+import Logo from '../../assets'
 
 function Menu() {
   return (
     <nav>
-      Amiflix
+      <img src={Logo} />
     </nav>
 
     );
