@@ -2,12 +2,12 @@ import React from 'react';
 import Menu from '../Menu';
 import Footer from '../Footer';
 
-function PageDefault() {
+function PageDefault({ children }) {
   return (
 
     <div>
       <Menu />
-        Conteúdo mágico
+        {children}
       <Footer />
     </div>
 
