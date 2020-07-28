@@ -9,7 +9,7 @@ function CadastroCategoria() {
 
       <Link to="/cadastro/categoria">
         Back to Home
-      </Link>
+      </Link>''
     </PageDefault>
   )
 }
