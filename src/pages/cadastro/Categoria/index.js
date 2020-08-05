@@ -4,6 +4,7 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import categoriasRepository from '../../../repositories/categorias';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -58,15 +59,24 @@ function CadastroCategoria() {
       <form onSubmit={function handleSubmit(infosDoEvento) {
         infosDoEvento.preventDefault();
 
-        console.log(categorias);
-        console.log(values);
+        // inicio codigo que thi adicionou
 
-        setCategorias([
-          ...categorias,
-          values,
-        ]);
+        // comentario thi: salva no backend fake os atributos que vieram do form
+        categoriasRepository.create({
+          titulo: values.titulo,
+          descricao: values.descricao,
+          cor: values.cor,
+        }).then(() => {
+          // comentario thi: adiciona as categorias do frontend a categoria atual
+          setCategorias([
+            ...categorias,
+            values,
+          ]);
 
-        clearForm();
+          // comentario thi: limpa os campos do form
+          clearForm();
+        });
+        // fim codigo que thi adicionou
       }}
       >
 

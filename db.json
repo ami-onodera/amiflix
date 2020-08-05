@@ -49,6 +49,18 @@
         "text": "Cursos de Data Science na Alura",
         "url": "https://www.alura.com.br/cursos-online-mobile"
       }
+    },
+    {
+      "titulo": "feature",
+      "descricao": "sookie",
+      "cor": "#5100ff",
+      "id": 4
+    },
+    {
+      "titulo": "Cachorros",
+      "descricao": "muito lindinhos",
+      "cor": "#000000",
+      "id": 7
     }
   ],
   "videos": [
@@ -240,6 +252,18 @@
       "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
       "categoriaId": 1,
       "id": 56
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
+      "categoriaId": 1,
+      "id": 57
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=DKodzQCAOYc",
+      "categoriaId": 7,
+      "id": 58
     }
   ]
 }
