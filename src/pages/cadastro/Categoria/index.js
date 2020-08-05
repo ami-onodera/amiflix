@@ -2,21 +2,17 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
+// import useForm from '../../../hooks/useForm';
 
-function CadastroCategoria() {
-  const valoresIniciais = {
-    nome: '',
-    descricao: '',
-    cor: '',
-  };
-  const [categorias, setCategorias] = useState([]);
+function useForm(valoresIniciais) {
+
   const [values, setValues] = useState(valoresIniciais);
 
   function setValue(chave, valor) {
-    // chave: nome, descricao, bla, bli
     setValues({
       ...values,
-      [chave]: valor, // nome: 'valor'
+      [chave]: valor,
     });
   }
 
@@ -27,23 +23,37 @@ function CadastroCategoria() {
     );
   }
 
-  // ============
+  return {
+    values,
+    handleChange,
+  };
+
+}
+
+function CadastroCategoria() {
+  const valoresIniciais = {
+    nome: '',
+    descricao: '',
+    cor: '',
+  };
+
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+
+  const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
-    if (window.location.href.includes('localhost')) {
-      const URL_TOP = window.location.hostname.includes('localhost')
-      ? 'http://localhost:3000/categorias'
-      : 'https://amiflix.herokuapp.com/categorias';
-      fetch(URL_TOP)
-        .then(async (respostaDoServer) => {
-          if (respostaDoServer.ok) {
-            const resposta = await respostaDoServer.json();
-            setCategorias(resposta);
-            return;
-          }
-          throw new Error('Não foi possível pegar os dados');
-        });
-    }
+    const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://devsoutinhoflix.herokuapp.com/categorias';
+    // E a ju ama variáveis
+    fetch(URL_TOP)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategorias([
+          ...resposta,
+        ]);
+      });
+
   }, []);
 
   return (
@@ -55,32 +65,29 @@ function CadastroCategoria() {
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
         infosDoEvento.preventDefault();
-
         setCategorias([
           ...categorias,
           values,
         ]);
 
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
 
         <FormField
           label="Nome da Categoria"
-          type="text"
           name="nome"
           value={values.nome}
           onChange={handleChange}
         />
 
         <FormField
-          label="Descrição:"
-          type="????"
+          label="Descrição"
+          type="textarea"
           name="descricao"
           value={values.descricao}
           onChange={handleChange}
         />
-
 
         <FormField
           label="Cor"
@@ -90,14 +97,21 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <button type="submit">
+        <Button>
           Cadastrar
-        </button>
+        </Button>
       </form>
+
+      {categorias.length === 0 && (
+        <div>
+          {/* Cargando... */}
+          Loading...
+        </div>
+      )}
 
       <ul>
         {categorias.map((categoria) => (
-          <li key={`${categoria.id}`}>
+          <li key={`${categoria.titulo}`}>
             {categoria.titulo}
           </li>
         ))}
