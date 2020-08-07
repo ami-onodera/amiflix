@@ -327,10 +327,58 @@
       "id": 29
     },
     {
-      "titulo": "Jane Austen",
-      "url": "https://www.youtube.com/watch?v=qfC8-f0vTBo",
+      "titulo": "Pink Floyd",
+      "url": "https://www.youtube.com/watch?v=yXWSq5UyERo",
       "categoriaId": 6,
       "id": 30
+    },
+    {
+      "titulo": "Shaman",
+      "url": "https://www.youtube.com/watch?v=gb9_G8kOx64",
+      "categoriaId": 7,
+      "id": 31
+    },
+    {
+      "titulo": "Led Zeppelin",
+      "url": "https://www.youtube.com/watch?v=3W6mDUmPZ0Y",
+      "categoriaId": 7,
+      "id": 32
+    },
+    {
+      "titulo": "Sonata Arctica",
+      "url": "https://www.youtube.com/watch?v=BEw3tS_FyAY",
+      "categoriaId": 7,
+      "id": 33
+    },
+    {
+      "titulo": "Avenged Sevefold",
+      "url": "https://www.youtube.com/watch?v=3TWQ5lJd6dA",
+      "categoriaId": 7,
+      "id": 34
+    },
+    {
+      "titulo": "Angra",
+      "url": "https://www.youtube.com/watch?v=ytotGK6YQ40",
+      "categoriaId": 7,
+      "id": 35
+    },
+    {
+      "titulo": "Metallica",
+      "url": "https://www.youtube.com/watch?v=WM8bTdBs-cw",
+      "categoriaId": 7,
+      "id": 36
+    },
+    {
+      "titulo": "Queen",
+      "url": "https://www.youtube.com/watch?v=wBqMbefDgys",
+      "categoriaId": 7,
+      "id": 37
+    },
+    {
+      "titulo": "Black Sabbath",
+      "url": "https://www.youtube.com/watch?v=LQUXuQ6Zd9w",
+      "categoriaId": 7,
+      "id": 38
     }
   ]
 }
