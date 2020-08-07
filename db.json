@@ -38,17 +38,26 @@
     },
     {
       "id": 5,
+      "titulo": "Games",
+      "cor": "#d90a65",
+      "link_extra": {
+        "text": "Games I love playing",
+        "url": "#"
+      }
+    },
+    {
+      "id": 6,
       "titulo": "Books",
-      "cor": "#00C86F",
+      "cor": "#9cd33b",
       "link_extra": {
         "text": "Books that I love",
         "url": "#"
       }
     },
     {
-      "id": 6,
+      "id": 7,
       "titulo": "Music",
-      "cor": "#9cd33b",
+      "cor": "#298444",
       "link_extra": {
         "text": "Some of my favorite bands",
         "url": "#"
@@ -240,28 +249,88 @@
       "id": 54
     },
     {
-      "titulo": "Usando Excel como CMS + React",
-      "url": "https://www.youtube.com/watch?v=5t2gq3xJZ9o",
-      "categoriaId": 6,
+      "titulo": "Pokémon - All Trailers (1996-2019)",
+      "url": "https://www.youtube.com/watch?v=_N79egPMk4w",
+      "categoriaId": 5,
       "id": 55
     },
     {
-      "titulo": "Olã mundo",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 1,
+      "titulo": "WORLD OF WARCRAFT - All Cinematics",
+      "url": "https://www.youtube.com/watch?v=pa3mZ29POhg",
+      "categoriaId": 5,
       "id": 56
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 1,
+      "titulo": "Diablo",
+      "url": "https://www.youtube.com/watch?v=M_c1q2oMHlk",
+      "categoriaId": 5,
       "id": 57
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=DKodzQCAOYc",
-      "categoriaId": 7,
+      "titulo": "Animal Crossing New Horizons",
+      "url": "https://www.youtube.com/watch?v=sRWjpjNVOCM",
+      "categoriaId": 5,
       "id": 58
+    },
+    {
+      "titulo": "Super Mario 64",
+      "url": "https://www.youtube.com/watch?v=J1-u3fxTdW0",
+      "categoriaId": 5,
+      "id": 59
+    },
+    {
+      "titulo": "Life is Strange",
+      "url": "https://www.youtube.com/watch?v=XhzFSu7MAqI",
+      "categoriaId": 5,
+      "id": 60
+    },
+    {
+      "titulo": "TellTales The Walking Dead",
+      "url": "https://www.youtube.com/watch?v=7Ly9cDgH15I",
+      "categoriaId": 5,
+      "id": 26
+    },
+    {
+      "titulo": "Paper Mario",
+      "url": "https://www.youtube.com/watch?v=FX6DTLcWUdY",
+      "categoriaId": 5,
+      "id": 27
+    },
+    {
+      "titulo": "Harry Potter",
+      "url": "https://www.youtube.com/watch?v=s8zBR1l4Tgc",
+      "categoriaId": 6,
+      "id": 28
+    },
+    {
+      "titulo": "Lord of the Rings",
+      "url": "https://www.youtube.com/watch?v=VNckduTgHrw",
+      "categoriaId": 6,
+      "id": 29
+    },
+    {
+      "titulo": "Game of Thrones",
+      "url": "https://www.youtube.com/watch?v=f7q3O-5LK-E",
+      "categoriaId": 6,
+      "id": 30
+    },
+    {
+      "titulo": "The Hunger Games",
+      "url": "https://www.youtube.com/watch?v=zevt9p0BFIg",
+      "categoriaId": 6,
+      "id": 28
+    },
+    {
+      "titulo": "The Witcher",
+      "url": "https://www.youtube.com/watch?v=iUZyuRAjj3w",
+      "categoriaId": 6,
+      "id": 29
+    },
+    {
+      "titulo": "Jane Austen",
+      "url": "https://www.youtube.com/watch?v=qfC8-f0vTBo",
+      "categoriaId": 6,
+      "id": 30
     }
   ]
 }
