@@ -30,29 +30,12 @@ function CadastroCategoria() {
         ]);
       });
 
-    // setTimeout(() => {
-    //   setCategorias([
-    //     ...categorias,
-    //     {
-    //       id: 1,
-    //       nome: 'Front End',
-    //       descricao: 'Uma categoria bacanudassa',
-    //       cor: '#cbd1ff',
-    //     },
-    //     {
-    //       id: 2,
-    //       nome: 'Back End',
-    //       descricao: 'Outra categoria bacanudassa',
-    //       cor: '#cbd1ff',
-    //     },
-    //   ]);
-    // }, 4 * 1000);
   }, []);
 
   return (
     <PageDefault>
       <h1>
-        Cadastro de Categoria:
+        Register a new category:
         {values.titulo}
       </h1>
 
@@ -81,14 +64,14 @@ function CadastroCategoria() {
       >
 
         <FormField
-          label="Nome da Categoria"
+          label="Category name"
           name="titulo"
           value={values.titulo}
           onChange={handleChange}
         />
 
         <FormField
-          label="Descrição"
+          label="Description"
           type="textarea"
           name="descricao"
           value={values.descricao}
@@ -96,7 +79,7 @@ function CadastroCategoria() {
         />
 
         <FormField
-          label="Cor"
+          label="Pick a color"
           type="color"
           name="cor"
           value={values.cor}
@@ -104,7 +87,7 @@ function CadastroCategoria() {
         />
 
         <Button type="submit">
-          Cadastrar
+          Submit
         </Button>
       </form>
 
@@ -124,7 +107,7 @@ function CadastroCategoria() {
       </ul>
 
       <Link to="/">
-        Ir para home
+        Back to home
       </Link>
     </PageDefault>
   );

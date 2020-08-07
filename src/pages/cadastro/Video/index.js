@@ -12,9 +12,9 @@ function CadastroVideo() {
   const [categorias, setCategorias] = useState([]);
   const categoryTitles = categorias.map(({ titulo }) => titulo);
   const { handleChange, values } = useForm({
-    titulo: 'Video padrão',
-    url: 'https://www.youtube.com/watch?v=jOAU81jdi-c',
-    categoria: 'Front End',
+    // titulo: 'Video padrão',
+    // url: 'https://www.youtube.com/watch?v=jOAU81jdi-c',
+    // categoria: 'Front End',
   });
 
   useEffect(() => {
@@ -27,7 +27,7 @@ function CadastroVideo() {
 
   return (
     <PageDefault>
-      <h1>Cadastro de Video</h1>
+      <h1>Register a new video</h1>
 
       <form onSubmit={(event) => {
         event.preventDefault();
@@ -43,13 +43,13 @@ function CadastroVideo() {
           categoriaId: categoriaEscolhida.id,
         })
           .then(() => {
-            console.log('Cadastrou com sucesso!');
+            console.log('Successfully registered!');
             history.push('/');
           });
       }}
       >
         <FormField
-          label="Título do Vídeo"
+          label="Video title"
           name="titulo"
           value={values.titulo}
           onChange={handleChange}
@@ -63,7 +63,7 @@ function CadastroVideo() {
         />
 
         <FormField
-          label="Categoria"
+          label="Category"
           name="categoria"
           value={values.categoria}
           onChange={handleChange}
@@ -71,7 +71,7 @@ function CadastroVideo() {
         />
 
         <Button type="submit">
-          Cadastrar
+          Submit
         </Button>
       </form>
 
@@ -79,7 +79,7 @@ function CadastroVideo() {
       <br />
 
       <Link to="/cadastro/categoria">
-        Cadastrar Categoria
+        Register a new Category
       </Link>
     </PageDefault>
   );
