@@ -1,119 +1,111 @@
 {
   "categorias": [
     {
-      "id": 6,
-      "titulo": "DevSoutinho",
-      "cor": "#ff6a00",
-      "link_extra": {
-        "text": "Canal no YouTube",
-        "url": "https://youtube.com/c/DevSoutinho"
-      }
-    },
-    {
-      "id": 5,
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
-    },
-    {
-      "id": 4,
-      "titulo": "Filmes",
-      "cor": "orange"
-    },
-    {
       "id": 1,
-      "titulo": "Front End",
-      "cor": "#6BD1FF",
+      "titulo": "Movies",
+      "cor": "#9e47d8",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Some of my favorite movies",
+        "url": "#"
       }
     },
     {
       "id": 2,
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "Series",
+      "cor": "#ef45db",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Interesting series to talk about",
+        "url": "#"
       }
     },
     {
       "id": 3,
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "titulo": "Animes",
+      "cor": "orange",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
+        "text": "My favorite japanese anime",
+        "url": "#"
       }
     },
     {
-      "titulo": "feature",
-      "descricao": "sookie",
-      "cor": "#5100ff",
-      "id": 4
+      "id": 4,
+      "titulo": "Animation",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Some of my favorite animation movies and cartoons",
+        "url": "#"
+      }
     },
     {
-      "titulo": "Cachorros",
-      "descricao": "muito lindinhos",
-      "cor": "#000000",
-      "id": 7
+      "id": 5,
+      "titulo": "Books",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Books that I love",
+        "url": "#"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Music",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Some of my favorite bands",
+        "url": "#"
+      }
     }
   ],
   "videos": [
     {
       "id": 50,
-      "categoriaId": 6,
+      "categoriaId": 1,
       "titulo": "SEO com React",
       "description": "Será que é tão difícil fazer SEO com React?",
       "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
     },
     {
       "id": 51,
-      "categoriaId": 6,
-      "titulo": "Como fazer um React e aprender a ideia do Virtual DOM na prática",
-      "description": "Já parou pra pensar como que o React renderiza as coisas na tela?",
-      "url": "https://www.youtube.com/watch?v=5MzOCxSWrrc"
+      "categoriaId": 1,
+      "titulo": "All Lord of the Rings and The Hobbit Saga Trailers",
+      "description": "All Lord of the Rings and The Hobbit Saga Trailers",
+      "url": "https://www.youtube.com/watch?v=N6X5sdqGbek"
     },
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "description": "Será que é tão difícil fazer SEO com React?",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "ALL Marvel Cinematic Universe Trailers",
+      "description": "ALL Marvel Cinematic Universe Trailers",
+      "url": "https://www.youtube.com/watch?v=d9M3j5d0KbQ"
     },
     {
       "id": 2,
       "categoriaId": 1,
-      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+      "titulo": "ALL Star Wars: Skywalker Saga Trailers",
+      "url": "https://www.youtube.com/watch?v=h6aVWMb3J5M"
     },
     {
       "id": 3,
       "categoriaId": 1,
-      "titulo": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+      "titulo": "Avatar | Official Trailer",
+      "url": "https://www.youtube.com/watch?v=6ziBFh3V1aM"
     },
     {
       "id": 4,
       "categoriaId": 1,
-      "titulo": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+      "titulo": "WONDER WOMAN - Official Trailer",
+      "url": "https://www.youtube.com/watch?v=1Q8fG0TtVAY"
     },
     {
       "id": 5,
       "categoriaId": 1,
-      "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+      "titulo": "All PLANET OF THE APES Reboot Franchise Trailers",
+      "url": "https://www.youtube.com/watch?v=efoF-Ks2_cM"
     },
     {
       "id": 6,
-      "categoriaId": 1,
-      "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+      "categoriaId": 2,
+      "titulo": "GAME OF THRONES Seasons 1-8 Official Trailers",
+      "url": "https://www.youtube.com/watch?v=70V1aWbmlwo"
     },
     {
       "id": 7,
