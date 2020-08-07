@@ -11,10 +11,10 @@
     },
     {
       "id": 2,
-      "titulo": "Series",
+      "titulo": "Series and Reality shows",
       "cor": "#ef45db",
       "link_extra": {
-        "text": "Interesting series to talk about",
+        "text": "Interesting series and tv shows to talk about",
         "url": "#"
       }
     },
@@ -23,7 +23,7 @@
       "titulo": "Animes",
       "cor": "orange",
       "link_extra": {
-        "text": "My favorite japanese anime",
+        "text": "My favorite japanese animation",
         "url": "#"
       }
     },
@@ -109,87 +109,87 @@
     },
     {
       "id": 7,
-      "categoriaId": 1,
-      "titulo": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-    },
-    {
-      "id": 8,
       "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-    },
-    {
-      "id": 9,
-      "categoriaId": 2,
-      "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-    },
-    {
-      "id": 10,
-      "categoriaId": 2,
-      "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-    },
-    {
-      "id": 11,
-      "categoriaId": 2,
-      "titulo": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+      "titulo": "Lost S1- S6 Season Trailers",
+      "url": "https://www.youtube.com/watch?v=QDDJiR4cp7w"
     },
     {
       "id": 12,
       "categoriaId": 2,
-      "titulo": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+      "titulo": "THE WITCHER | MAIN TRAILER | NETFLIX",
+      "url": "https://www.youtube.com/watch?v=ndl1W4ltcmg"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Breaking Bad",
+      "url": "https://www.youtube.com/watch?v=VaOt6tXyf2Y"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "RuPaul's Drag Race",
+      "url": "https://www.youtube.com/watch?v=I2eEvP5iRW4"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Ainori: Love Wagon",
+      "url": "https://www.youtube.com/watch?v=ukaN3adLzVA"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Prison Break",
+      "url": "https://www.youtube.com/watch?v=der8A7Z9u7c"
     },
     {
       "id": 13,
       "categoriaId": 3,
-      "titulo": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+      "titulo": "Saint Seiya",
+      "url": "https://www.youtube.com/watch?v=MKK7n0_Kpiw"
     },
     {
       "id": 14,
       "categoriaId": 3,
-      "titulo": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+      "titulo": "Sailor Moon",
+      "url": "https://www.youtube.com/watch?v=sEnaU4BsQic"
     },
     {
       "id": 15,
       "categoriaId": 3,
-      "titulo": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+      "titulo": "Card Captor Sakura",
+      "url": "https://www.youtube.com/watch?v=6YBDo5S8soo"
     },
     {
       "id": 16,
       "categoriaId": 3,
-      "titulo": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+      "titulo": "Dragon Ball Z",
+      "url": "https://www.youtube.com/watch?v=5dRbM_T6aCE"
     },
     {
       "id": 17,
-      "categoriaId": 4,
-      "titulo": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+      "categoriaId": 3,
+      "titulo": "Yu Yu Hakusho",
+      "url": "https://www.youtube.com/watch?v=kquYTREOAiQ"
     },
     {
       "id": 18,
-      "categoriaId": 4,
-      "titulo": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+      "categoriaId": 3,
+      "titulo": "Love Hina",
+      "url": "https://www.youtube.com/watch?v=BuYqtdkIN-M"
     },
     {
       "id": 19,
-      "categoriaId": 4,
-      "titulo": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+      "categoriaId": 3,
+      "titulo": "Gundam Wing",
+      "url": "https://www.youtube.com/watch?v=oNJ4aBoRipg"
     },
     {
       "id": 20,
-      "categoriaId": 4,
-      "titulo": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+      "categoriaId": 3,
+      "titulo": "InuYasha",
+      "url": "https://www.youtube.com/watch?v=QtMJO_iADEs"
     },
     {
       "id": 21,
